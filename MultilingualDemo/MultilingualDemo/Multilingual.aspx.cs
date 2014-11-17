@@ -36,6 +36,7 @@ namespace MultilingualDemo
             resourceManager = new ResourceManager("MultilingualDemo.App_GlobalResources.Lang", Assembly.GetExecutingAssembly());
             cultureInfo = Thread.CurrentThread.CurrentCulture;
 
+           
             lblName.Text = resourceManager.GetString("Name", cultureInfo);
             lblEmail.Text = resourceManager.GetString("Email", cultureInfo);
             lblPhone.Text = resourceManager.GetString("Phone", cultureInfo);

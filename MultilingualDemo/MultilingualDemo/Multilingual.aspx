@@ -19,7 +19,11 @@
                  <table>
             <tr>
                 <td colspan="2">
-                    <h2>Multilingual Demo</h2>
+                    <h2>
+                        <asp:Label ID="lblHeader" runat="server" Text="Multilingual Demo"></asp:Label>
+                        
+
+                    </h2>
                 </td>
             </tr>
             <tr>
